@@ -1,0 +1,163 @@
+--------- beginning of main
+10-04 14:10:47.705   172   172 W auditd  : type=2000 audit(0.0:1): initialized
+--------- beginning of system
+10-04 14:11:52.107   175   175 I vold    : Vold 3.0 (the awakening) firing up
+10-04 14:11:52.109   175   175 V vold    : Detected support for: exfat ext4 f2fs ntfs vfat
+10-04 14:11:52.238   201   201 I BOOT    : MSM target '${ro.board.platform}', SoC 'MTP', HwID '109', SoC ver '65536' 
+10-04 14:11:52.851   305   305 I lowmemorykiller: Using in-kernel low memory killer interface
+10-04 14:11:52.869   360   360 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: init.qcom.bt.sh config = onboot 
+10-04 14:11:52.879   303   303 I busybox : run-parts: /system/etc/init.d: No such file or directory
+10-04 14:11:52.882   314   314 D QSEECOMD: : qseecom listener services process entry PPID = 1
+10-04 14:11:52.882   314   314 D QSEECOMAPI: : QSEECom_start_app sb_length = 0x400
+10-04 14:11:52.883   314   314 D QSEECOMAPI: : App is not loaded in QSEE
+10-04 14:11:52.883   314   314 E QSEECOMAPI: : Error::Cannot open the file /firmware/image/keymaste.mdt
+10-04 14:11:52.883   314   314 E QSEECOMAPI: : Error::Loading image failed with ret = -1
+10-04 14:11:52.883   314   314 E QSEECOMD: : Loading keymaster app failied
+10-04 14:11:52.887   314   314 D QSEECOMD: : Parent qseecom daemon process paused!! 
+10-04 14:11:52.890   386   386 D QSEECOMD: : QSEECOM DAEMON RUNNING 
+10-04 14:11:52.890   386   386 D QSEECOMD: : qseecom listener service threads starting!!! 
+10-04 14:11:52.890   386   386 D QSEECOMD: : Total listener services to start = 2
+10-04 14:11:52.900   386   386 D QSEECOMD: : Init dlopen(libdrmtime.so, RTLD_NOW) succeeds
+10-04 14:11:52.900   386   386 D QSEECOMD: : Init::Init dlsym(g_FSHandle atime_start) succeeds
+10-04 14:11:52.900   386   386 D QSEECOMAPI: : QSEECom_register_listener 11 sb_length = 0x5000
+10-04 14:11:52.903   386   386 D QSEECOMD: : Init atime_start ret = 0
+10-04 14:11:52.903   386   386 D QSEECOMD: : time services: Started
+10-04 14:11:52.903   386   386 D QSEECOMD: : Init dlopen(libdrmfs.so, RTLD_NOW) succeeds
+10-04 14:11:52.903   386   386 D QSEECOMD: : Init::Init dlsym(g_FSHandle fs_start) succeeds
+10-04 14:11:52.903   386   386 D QSEECOMAPI: : QSEECom_register_listener 10 sb_length = 0x5000
+10-04 14:11:52.908   386   386 D QSEECOMD: : Init fs_start ret = 0
+10-04 14:11:52.908   386   386 D QSEECOMD: : file system services: Started
+10-04 14:11:52.911   370   370 E MP-Decision: MPDecision server starting
+10-04 14:11:52.911   370   370 E MP-Decision: Unable to create control service (stage=2, rc=-1)
+10-04 14:11:52.917   370   370 E MP-Decision: OPTION ENABLED: Control sleep modes
+10-04 14:11:52.917   370   370 E MP-Decision: OPTION ENABLED: Adjusting average
+10-04 14:11:52.917   370   370 E MP-Decision: Decision parameters CPU 0: Nw=0.000000, Tw=0, Ns=0.000000, Ts=0
+10-04 14:11:52.917   370   370 E MP-Decision: util_h_and=0, util_h_or=0, util_low=0
+10-04 14:11:52.917   370   370 E MP-Decision: Decision parameters CPU 1: Nw=1.900000, Tw=140, Ns=1.100000, Ts=190
+10-04 14:11:52.917   370   370 E MP-Decision: util_h_and=35, util_h_or=75, util_low=20
+10-04 14:11:52.917   370   370 E MP-Decision: Decision parameters CPU 2: Nw=2.700000, Tw=90, Ns=2.100000, Ts=240
+10-04 14:11:52.917   370   370 E MP-Decision: util_h_and=0, util_h_or=400, util_low=0
+10-04 14:11:52.917   370   370 E MP-Decision: Decision parameters CPU 3: Nw=3.500000, Tw=90, Ns=3.100000, Ts=240
+10-04 14:11:52.917   370   370 E MP-Decision: util_h_and=0, util_h_or=400, util_low=0
+10-04 14:11:52.917   370   370 E MP-Decision: Decision parameters: poll_ms: 9 decision_ms: 50
+10-04 14:11:52.936   363   363 W linker  : /system/bin/mm-qcamera-daemon has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:52.937   363   363 W linker  : /system/lib/liboemcamera.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:52.952   363   363 W linker  : /system/lib/libmmjpeg.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:52.953   363   363 W linker  : /system/lib/libgemini.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:52.954   365   365 E rmt_storage: Remote storage service is not supported on mdm target
+10-04 14:11:52.968   368   368 I kickstart-qcks: PARAMETER VALUES
+10-04 14:11:52.968   368   368 I kickstart-qcks: COMPORT_DLOAD=/dev/ttyHSL1
+10-04 14:11:52.968   368   368 I kickstart-qcks: COMPORT_SAHARA=/dev/ks_hsic_bridge
+10-04 14:11:52.968   368   368 I kickstart-qcks: PATHTOIMAGES=/firmware/image/
+10-04 14:11:52.968   368   368 I kickstart-qcks: PATHFORRAMDUMP=/data/tombstones/mdm/
+10-04 14:11:52.968   368   368 I kickstart-qcks: EFSRAW1=/dev/block/platform/msm_sdcc.1/by-name/m9kefs1
+10-04 14:11:52.968   368   368 I kickstart-qcks: EFSRAW2=/dev/block/platform/msm_sdcc.1/by-name/m9kefs2
+10-04 14:11:52.968   368   368 I kickstart-qcks: EFSRAW3=/dev/block/platform/msm_sdcc.1/by-name/m9kefs3
+10-04 14:11:52.968   368   368 I kickstart-qcks: Header1=efs1.mbn
+10-04 14:11:52.968   368   368 I kickstart-qcks: Header2=efs2.mbn
+10-04 14:11:52.968   368   368 I kickstart-qcks: Header3=efs3.mbn
+10-04 14:11:52.969   368   368 I kickstart-qcks: Testing if port "/dev/mdm" exists
+10-04 14:11:52.969   368   368 I kickstart-qcks: Trying to bring MDM9K out of reset
+10-04 14:11:52.974   363   363 E mm-camera: qcamsvr_start: old_mode = 3f
+10-04 14:11:52.977   407   407 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Bluetooth Address programmed successfully 
+10-04 14:11:53.044   309   309 I SurfaceFlinger: SurfaceFlinger is starting
+10-04 14:11:53.045   309   309 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+10-04 14:11:53.074   309   309 D libEGL  : loaded /vendor/lib/egl/libEGL_adreno.so
+10-04 14:11:53.084   309   309 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+10-04 14:11:53.094   363   363 W linker  : /system/lib/libmmcamera_statsproc31.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:53.094   363   363 W linker  : /system/lib/libmmcamera_image_stab.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:53.139   363   363 W linker  : /system/lib/libmmcamera_frameproc.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:53.155   363   363 W linker  : /system/lib/libmmcamera_faceproc.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:53.156   363   363 W linker  : /system/lib/libmmcamera_wavelet_lib.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:53.156   363   363 W linker  : /system/lib/libmmcamera_hdr_lib.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+10-04 14:11:53.157   363   363 E mm-camera: qcamsvr_load_gesture_lib Error opening gesture library
+10-04 14:11:53.157   363   363 E mm-camera: Cannot init Gesture library
+10-04 14:11:53.185   309   309 D libEGL  : loaded /vendor/lib/egl/libGLESv2_adreno.so
+10-04 14:11:53.213   464   464 I DMM     : DMM available. movable_start_bytes at 
+10-04 14:11:53.223   309   309 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 09/02/15, 76f806e, Ibddc658e36
+10-04 14:11:53.386   526   526 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Enabling BT-DUN for Fusion3 
+10-04 14:11:53.496   538   538 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Bluetooth stack is Bluedroid 
+10-04 14:11:53.588   309   309 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb0
+10-04 14:11:53.588   309   309 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb1
+10-04 14:11:53.588   309   309 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb2
+10-04 14:11:53.633   309   309 W qdcopybit: open_copybit i = 0 surface_id=-1026555902
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 1 surface_id=-1026555901
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 2 surface_id=-1026555900
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 3 surface_id=-1026555899
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 4 surface_id=-1026555898
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 5 surface_id=-1026555897
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 6 surface_id=-1026555896
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 7 surface_id=-1026555895
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 8 surface_id=-1026555894
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 9 surface_id=-1026555893
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 10 surface_id=-1026555892
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 11 surface_id=-1026555891
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 12 surface_id=-1026555890
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 13 surface_id=-1026555889
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 14 surface_id=-1026555888
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 15 surface_id=-1026555887
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 16 surface_id=-1026555886
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 17 surface_id=-1026555885
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 18 surface_id=-1026555884
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 19 surface_id=-1026555883
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 20 surface_id=-1026555882
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 21 surface_id=-1026555881
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 22 surface_id=-1026555880
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 23 surface_id=-1026555879
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 24 surface_id=-1026555878
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 25 surface_id=-1026555877
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 26 surface_id=-1026555876
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 27 surface_id=-1026555875
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 28 surface_id=-1026555874
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 29 surface_id=-1026555873
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 30 surface_id=-1026555872
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit i = 31 surface_id=-1026555871
+10-04 14:11:53.634   309   309 W qdcopybit: open_copybit: 2 Plane YUV i=0 surface_id=-1026555869
+10-04 14:11:53.635   309   309 W qdcopybit: open_copybit: 2 Plane YUV i=1 surface_id=-1026555868
+10-04 14:11:53.635   309   309 W qdcopybit: open_copybit: 2 Plane YUV i=2 surface_id=-1026555867
+10-04 14:11:53.635   309   309 W qdcopybit: open_copybit: 2 Plane YUV i=3 surface_id=-1026555866
+10-04 14:11:53.635   309   309 W qdcopybit: open_copybit: 3 Plane YUV i=0 surface_id=-1026555864
+10-04 14:11:53.639   309   309 I qdhwcomposer: Initializing Qualcomm Hardware Composer
+10-04 14:11:53.639   309   309 I qdhwcomposer: MDP version: 440
+10-04 14:11:53.639   309   309 I SurfaceFlinger: Using composer version 1.3
+10-04 14:11:53.639   309   309 I qdhwcomposer: hwc_registerProcs
+10-04 14:11:53.639   309   309 I qdhwcomposer: Initializing UEVENT Thread
+10-04 14:11:53.639   309   309 I qdhwcomposer: Initializing VSYNC Thread
+10-04 14:11:53.640   309   309 D qdhwcomposer: hwc_getDisplayAttributes disp = 0, width = 720
+10-04 14:11:53.640   309   309 D qdhwcomposer: hwc_getDisplayAttributes disp = 0, height = 1280
+10-04 14:11:53.682   309   309 I SurfaceFlinger: EGL information:
+10-04 14:11:53.683   309   309 I SurfaceFlinger: vendor    : Android
+10-04 14:11:53.683   309   309 I SurfaceFlinger: version   : 1.4 Android META-EGL
+10-04 14:11:53.683   309   309 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+10-04 14:11:53.683   309   309 I SurfaceFlinger: Client API: OpenGL_ES
+10-04 14:11:53.683   309   309 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x5
+10-04 14:11:53.687   309   309 I SurfaceFlinger: OpenGL ES informations:
+10-04 14:11:53.687   309   309 I SurfaceFlinger: vendor    : Qualcomm
+10-04 14:11:53.687   309   309 I SurfaceFlinger: renderer  : Adreno (TM) 320
+10-04 14:11:53.687   309   309 I SurfaceFlinger: version   : OpenGL ES 3.0 V@127.0 AU@  (GIT@Ibddc658e36)
+10-04 14:11:53.687   309   309 I SurfaceFlinger: extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_con
+10-04 14:11:53.687   309   309 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 4096
+10-04 14:11:53.687   309   309 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 4096
+10-04 14:11:53.689   309   309 I SurfaceFlinger: EGL information:
+10-04 14:11:53.689   309   309 I SurfaceFlinger: vendor    : Android
+10-04 14:11:53.689   309   309 I SurfaceFlinger: version   : 1.4 Android META-EGL
+10-04 14:11:53.689   309   309 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+10-04 14:11:53.689   309   309 I SurfaceFlinger: Client API: OpenGL_ES
+10-04 14:11:53.689   309   309 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x5
+10-04 14:11:53.712   309   309 D SurfaceFlinger: Set power mode=2, type=0 flinger=0xb86caed8
+10-04 14:11:53.712   309   309 D qdhwcomposer: hwc_blank: Unblanking display: 0
+10-04 14:11:53.815   309   309 D qdhwcomposer: hwc_blank: Done unblanking display: 0
+10-04 14:11:54.518   547   554 D libEGL  : loaded /vendor/lib/egl/libEGL_adreno.so
+10-04 14:11:54.521   547   554 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+10-04 14:11:54.557   547   554 D libEGL  : loaded /vendor/lib/egl/libGLESv2_adreno.so
+10-04 14:11:54.625   547   554 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 09/02/15, 76f806e, Ibddc658e36
+10-04 14:11:54.672   547   554 E BootAnimation: couldn't find audio_conf.txt
+10-04 14:11:54.819   309   309 D SurfaceFlinger: shader cache generated - 24 shaders in 313.446045 ms
+10-04 14:11:54.820   309   309 D qdutils : DEBUG_CALC_FPS: 0
+10-04 14:11:54.820   309   309 D qdutils : period: 10
+10-04 14:11:54.820   309   309 D qdutils : ignorethresh_us: 500000
+10-04 14:11:54.969   368   368 I kickstart-qcks: EFS Prepend
+10-04 14:11:54.969   368   368 E kickstart-qcks: File '/firmware/image/efs1.mbn' was not found
+10-04 14:11:54.969   368   368 E kickstart-qcks: Prepend failed.
+10-04 14:11:58.536   309   436 E Fence   : Throttling EGL Production: fence 42 didn't signal in 3000 ms
+10-04 14:12:05.336   547   566 W Adreno-GSL: <gsl_umd_context_server_thread:531>: (0xb8465698) waiting failed: -10 for ctx=3 submitting anyway
